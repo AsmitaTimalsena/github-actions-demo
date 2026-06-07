@@ -1,0 +1,14 @@
+name: Directory Workflow
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show Current Directory
+        run: pwd
+      - name: Show Directory Contents
+        run: ls -la

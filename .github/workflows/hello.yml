@@ -11,3 +11,11 @@ jobs:
     steps:
       - name: Print Message
         run: echo "hello message"
+      
+      - name: Print Multiple Messages
+        run: |
+          echo "Welcome Students"
+          echo "Learning GitHub Actions"
+          echo "Today's Lab Session"
+
+
